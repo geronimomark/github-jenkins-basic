@@ -1,0 +1,14 @@
+# install jenkins
+mkdir ~/jenkins_dir
+docker run -d --name jenkins \
+    -v ~/jenkins_dir:/var/jenkins_home \
+    -p 8080:8080 -p 50001:50001 \
+    --env JENKINS_SLAVE_AGENT_PORT=50001 \
+    jenkins/jenkins:lts
+
+# tail logs
+docker logs -f jenkins;
+
+# get the initial password
+jenkinsPassword=$(docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword)
+echo $jenkinsPassword

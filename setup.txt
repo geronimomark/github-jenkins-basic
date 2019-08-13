@@ -1,0 +1,18 @@
+BASIC STEPS FOR CICD SAMPLE
+
+# EC2 INSTALLATIONS
+- create ec2 using amazon-linux, allow 8080, 22
+- install docker
+- install jenkins
+
+# GITHUB SETTINGS
+- create PAN - personal access network
+    admin:repo_hook, repo
+- create repo @ github.dxc.com
+- create webhook
+    SAMPLE WEBHOOK URL= http://ec2-13-229-128-99.ap-southeast-1.compute.amazonaws.com:8080/github-webhook/  
+
+# JENKINS SETTINGS
+- create jenkins credential secret for PAN
+- ssh-keygen for git
+- create jenkins credential for git clone ssh
