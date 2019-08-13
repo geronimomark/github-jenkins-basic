@@ -67,8 +67,8 @@
 1. Login to Jenkins
 2. Click Add new job
 ---
-3. <img src="https://github.dxc.com/mgeronimo3/tgif-session-2/blob/master/1.png?raw=true">
+3. <img src="1.png">
 ---
-4. <img src="https://github.dxc.com/mgeronimo3/tgif-session-2/blob/master/2.png?raw=true">
+4. <img src="2.png">
 ---
-5. <img src="https://github.dxc.com/mgeronimo3/tgif-session-2/blob/master/3.png?raw=true">
+5. <img src="3.png">
