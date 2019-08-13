@@ -1,6 +1,6 @@
 # Setup Github and Jenkins Integration
 
-<img src="https://storage.needpix.com/rsynced_images/logo-2582757_1280.png" width=400> | <img src="https://www.stickpng.com/assets/images/58480984cef1014c0b5e4902.png" width=270 height=400>
+<img src="jenkins.png" width=400> | <img src="github.png" width=270 height=400>
 ---
 
 ### Setup Jenkins in AWS EC2
